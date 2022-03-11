@@ -1,12 +1,18 @@
-
 .nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    margin: 0rem 4rem;
-    &__play {
-      padding: 0.5rem 2rem;
-    }
-  }
-  
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	margin: 0rem 4rem;
+	&__play {
+		padding: 0.5rem 2rem;
+	}
+}
+
+.nav-bar-logo {
+	color: lightblue;
+}
+
+.nav-bar-link {
+	text-decoration: none;
+}

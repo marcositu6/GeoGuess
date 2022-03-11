@@ -1,17 +1,107 @@
 [
-    {"id": "1", "image": "/images/arc-de-triomphe-paris-france.jpg", "name": "Arc de Triomphe", "country":"France"},
-    {"id": "2", "image": "/images/big-ben-london-england.jpg", "name": "Big Ben", "country":"England"},
-    {"id": "3", "image": "/images/christ-the-redeemer-rio-de-janeiro-brazil.jpg", "name":"Christ the Redeemer", "country":"Brazil"},
-    {"id": "4", "image": "/images/cn-tower-toronto-canada.jpg", "name": "CN Tower", "country":"Canada"},
-    {"id": "5", "image": "/images/colosseum-rome-italy.jpg", "name":"Colosseum", "country":"Italy"},
-    {"id": "6", "image": "/images/duomo-di-milano-milan-italy.jpg", "name": "Duomo Di Milano", "country": "Italy"},
-    {"id": "7", "image": "/images/eiffel-tower-paris-france.jpg", "name": "Eiffel Tower", "country": "France"},
-    {"id": "8", "image": "/images/la-sagrada-familia-barcelona-spain.jpg", "name": "La Sagrada Familia", "country": "Spain"},
-    {"id": "9", "image": "/images/leaning-tower-of-pisa-pisa-italy.jpg", "name": "Leaning Tower of Piza", "country": "Italy"},
-    {"id": "10", "image": "/images/louvre-museum-paris-france.jps", "name": "Louvre Museum", "country": "France"},
-    {"id": "11", "image": "/images/mont-saint-michael-mount's-bay-england.jpg", "name":"Mont Saint-Michael", "country": "England"},
-    {"id": "12", "image": "/images/niagra-falls-canada.webp", "name":"Niagra Falls", "country":"Canada"},
-    {"id": "13", "iamge": "/images/parthenon-athens-greece.jpg", "name":"Parthenon", "country": "Greece"},
-    {"id": "14", "image": "/images/preikestolen-norway.jpg", "name": "Preikestolen", "country": "Norway"},
-    {"id": "15", "image": "/images/pyramids-of-giza-cairo-egypt.jpg", "name": "Pyramids Of Giza", "country": "Egypt"}
+	{
+		"id": "1",
+		"image": "/images/arc-de-triomphe-paris-france.jpg",
+		"name": "ARC DE TRIOMPHE",
+
+		"country": "France"
+	},
+	{
+		"id": "2",
+		"image": "/images/big-ben-london-england.jpg",
+		"name": "BIG BEN",
+
+		"country": "England"
+	},
+	{
+		"id": "3",
+		"image": "/images/christ-the-redeemer-rio-de-janeiro-brazil.jpg",
+		"name": "CHRIST THE REDEEMER",
+
+		"country": "Brazil"
+	},
+	{
+		"id": "4",
+		"image": "/images/cn-tower-toronto-canada.jpg",
+		"name": "CN TOWER",
+
+		"country": "Canada"
+	},
+	{
+		"id": "5",
+		"image": "/images/colosseum-rome-italy.jpg",
+		"name": "COLOSSEUM",
+
+		"country": "Italy"
+	},
+	{
+		"id": "6",
+		"image": "/images/duomo-di-milano-milan-italy.jpg",
+		"name": "DUOMO DI MILANO",
+
+		"country": "Italy"
+	},
+	{
+		"id": "7",
+		"image": "/images/eiffel-tower-paris-france.jpg",
+		"name": "EIFFEL TOWER",
+
+		"country": "France"
+	},
+	{
+		"id": "8",
+		"image": "/images/la-sagrada-familia-barcelona-spain.jpg",
+		"name": "LA SAGRADA FAMILIA",
+
+		"country": "Spain"
+	},
+	{
+		"id": "9",
+		"image": "/images/leaning-tower-of-pisa-pisa-italy.jpg",
+		"name": "LEANING TOWER OF PISA",
+
+		"country": "Italy"
+	},
+	{
+		"id": "10",
+		"image": "/images/louvre-museum-paris-france.jps",
+		"name": "LOUVRE MUSEUM",
+
+		"country": "France"
+	},
+	{
+		"id": "11",
+		"image": "/images/mont-saint-michael-mount's-bay-england.jpg",
+		"name": "MONT SAINT MICHAEL",
+
+		"country": "England"
+	},
+	{
+		"id": "12",
+		"image": "/images/niagra-falls-canada.webp",
+		"name": "NIAGARA FALLS",
+
+		"country": "Canada"
+	},
+	{
+		"id": "13",
+		"iamge": "/images/parthenon-athens-greece.jpg",
+		"name": "PARTHENON",
+
+		"country": "Greece"
+	},
+	{
+		"id": "14",
+		"image": "/images/preikestolen-norway.jpg",
+		"name": "PREIKESTOLEN",
+
+		"country": "Norway"
+	},
+	{
+		"id": "15",
+		"image": "/images/pyramids-of-giza-cairo-egypt.jpg",
+		"name": "PYRAMIDS OF GIZA",
+
+		"country": "Egypt"
+	}
 ]
