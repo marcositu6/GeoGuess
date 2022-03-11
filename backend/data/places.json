@@ -64,14 +64,14 @@
 	},
 	{
 		"id": "10",
-		"image": "/images/louvre-museum-paris-france.jps",
+		"image": "/images/louvre-museum-paris-france.jpg",
 		"name": "LOUVRE MUSEUM",
 
 		"country": "France"
 	},
 	{
 		"id": "11",
-		"image": "/images/mont-saint-michael-mount's-bay-england.jpg",
+		"image": "/images/mont-saint-michel-mount's-bay-england.jpg",
 		"name": "MONT SAINT MICHAEL",
 
 		"country": "England"
