@@ -14,35 +14,39 @@ class Game extends React.Component {
   }
 
   fetchQuestionInfo(current) {
-    // axios
-    //   .get(`${apiURL}/places/${current}`)
-    //   .then((response) => {
-    //     this.setState({
-    //       question: response.data,
-    //     });
-    //   })
-    //   .catch((err) => {
-    //     console.log("question fetch" + err);
-    //   });
+    this.props.history.push(`/game/${this.state.current}`);
+    axios
+      .get(`${apiURL}/places/${current}`)
+      .then((response) => {
+        console.log(response);
+        this.setState({
+          question: response.data,
+        });
+      })
+      .catch((err) => {
+        console.log("question fetch" + err);
+      });
   }
 
   componentDidMount() {
-    this.fetchQuestionInfo(this.current);
+    this.fetchQuestionInfo(this.state.current);
   }
   componentDidUpdate(prevProps) {
     if (this.props.match.params.id) {
       if (prevProps.match.params.id !== this.props.match.params.id) {
-        this.fetchVideoInfo(this.props.match.params.id);
+        console.log(this.props.match.params.id);
+        this.fetchQuestionInfo(this.props.match.params.id);
       }
     }
   }
   handleSubmit = (ev) => {
     ev.preventDefault();
-    if (ev.target.guess.value === this.state.question.title) {
+    if (ev.target.guess.value === this.state.question.name) {
       this.setState({
         current: this.state.current + 1,
       });
       this.props.history.push(`/game/${this.state.current}`);
+      console.log("wrong");
     } else {
       console.log("wrong");
     }
@@ -55,7 +59,7 @@ class Game extends React.Component {
           <img
             className="game-pholder__img"
             alt="main game pic"
-            src={this.state.question.image}
+            src={`${apiURL}/${this.state.question.image}`}
           />
         </div>
         <form className="game-text" onSubmit={this.handleSubmit}>
@@ -63,7 +67,7 @@ class Game extends React.Component {
           <input
             name="guess"
             className="game-text__input"
-            placeholder={this.state.question.title}
+            placeholder={this.state.question.name}
             type="text"
           ></input>
           <button className="nav-bar__play" type="submit">
