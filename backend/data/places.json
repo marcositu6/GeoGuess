@@ -1,7 +1,7 @@
 [
     {"id": "1", "image": "/images/arc-de-triomphe-paris-france.jpg", "name": "Arc de Triomphe", "country":"France"},
     {"id": "2", "image": "/images/big-ben-london-england.jpg", "name": "Big Ben", "country":"England"},
-    {"id": "3", "image": "/images/christ-the-redeemer-rio-de-janiero-brazil.jpg", "name":"Christ the Redeemer", "country":"Brazil"},
+    {"id": "3", "image": "/images/christ-the-redeemer-rio-de-janeiro-brazil.jpg", "name":"Christ the Redeemer", "country":"Brazil"},
     {"id": "4", "image": "/images/cn-tower-toronto-canada.jpg", "name": "CN Tower", "country":"Canada"},
     {"id": "5", "image": "/images/colosseum-rome-italy.jpg", "name":"Colosseum", "country":"Italy"},
     {"id": "6", "image": "/images/duomo-di-milano-milan-italy.jpg", "name": "Duomo Di Milano", "country": "Italy"},

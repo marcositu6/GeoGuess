@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 })
 
 // places routes
-app.use('/places', placesRoutes)
+app.use('/game', placesRoutes)
 
 app.listen(8080, () => {
   console.log('LISTENING ON PORT 8080')
